@@ -22,7 +22,7 @@ export default function AppAbout(props) {
     <div>
       <p align="right"><b>source:</b> app-about.js</p>
       <h2>About</h2>
-      <b>Developed by Ricardo Mansano.</b><br /><br />
+      <b>Developed by Cacio renato da silva.</b><br /><br />
       <b>Name:</b> {appName} - {appDescription}<br />
       <b>Version:</b> {appVersion}<br />
       <b>License:</b> {appLicense}<br /><br />

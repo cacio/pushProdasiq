@@ -50,14 +50,17 @@ export default function AppMenu(props) {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={() => { handleClickOpt(Welcome) }}>Welcome</MenuItem>
-        <MenuItem onClick={() => { handleClickOpt(BasicForm) }}>Form</MenuItem>
-        <MenuItem onClick={() => { handleClickOpt(Command) }}>Execute Command</MenuItem>
-        <MenuItem onClick={() => { handleClickOpt(Rest) }}>Consume Rest </MenuItem>
-        <MenuItem onClick={() => { handleClickOpt(FS_Inifile) }}>File System / Ini File </MenuItem>
+        <MenuItem onClick={() => { handleClickOpt(Welcome) }}>Incio</MenuItem>        
         <Divider />
-        <MenuItem onClick={() => { handleClickOpt(AppAbout) }}>About...</MenuItem>
+        <MenuItem onClick={() => { handleClickOpt(AppAbout) }}>Sobre</MenuItem>
       </Menu>
     </div>
   );
 }
+
+/*
+<MenuItem onClick={() => { handleClickOpt(BasicForm) }}>Form</MenuItem>
+        <MenuItem onClick={() => { handleClickOpt(Command) }}>Execute Command</MenuItem>
+        <MenuItem onClick={() => { handleClickOpt(Rest) }}>Consume Rest </MenuItem>
+        <MenuItem onClick={() => { handleClickOpt(FS_Inifile) }}>File System / Ini File </MenuItem>
+*/

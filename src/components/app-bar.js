@@ -69,7 +69,7 @@ export default class AppBar extends React.Component {
         return (
             <div style={appBarStyle}>
                 <AppMenu mainApp={this.state.mainApp} />
-                <h1 style={appH1}>Reactron</h1>
+                <h1 style={appH1}>Atualizador Prodasiq</h1>
 
                 <IconButton color="inherit" size="small" style={appButton}
                     onClick={() => { window.minimize() }}>
